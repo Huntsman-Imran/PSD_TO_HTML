@@ -1,0 +1,380 @@
+body
+{
+ font-family:  helvetica;
+ font-size: 14px;
+}
+@font-face{
+    font-family: 'Museo';
+    scr: url('fonts/Museo-700.otf');
+}
+h1, h2, h3,h4,h5,h6 {
+ font-family: Museo,Helvetica;
+ color: #333;
+}
+a{
+    color: #fb2f3a;
+   
+}
+a:focus,a:hover
+{
+    color: #eb2fe9;
+     text-decoration: none;
+     border-bottom: 1px solid #ddd;
+}
+
+.btn
+{
+    font-weight: bold;  
+    background: #9a9c9f;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.2); /*inner glow*/
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.50);/*inner shadow*/
+    text-shadow:none;
+    margin-top: 20px;
+
+}
+.btn:hover,.btn:focus
+{
+ background: #5d5d5d;
+ color: #fff;
+ border: 1px solid rgba(0,0,0,0.2);
+}
+
+.heading
+{
+    margin-bottom: 20px;
+}
+/*navbar start*/
+.jumbotron{
+    padding: 0px;
+    background: #222 url(img/cover.JPG) no-repeat 50% top;   
+    margin-bottom: 0;
+}
+.navbar {
+    position: relative;
+    min-height: 100px;
+    margin-bottom: 0;
+    border: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding: 25px 0px;
+}
+.navbar-default {
+    background-color: transparent;
+}
+.navbar .navbar-brand{
+	text-indent: -9999px;
+	width: 229px;
+	height: 60px;
+	background: url(img/logo.png) no-repeat;
+    border: none;
+}
+.navbar-nav > li > a
+ {
+font-weight: bold;
+font-size: 14px;
+border: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 3px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover
+{
+    color: rgba(255,255,255,0.7);
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #000;
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+    background-color: #fff;
+}
+ /*navebar end*/
+
+/*banner start*/
+ .jumbotron h1 {
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.9);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.jumbotron h4
+ {
+    font-size: 20px;
+    color: #ccc;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.9);  
+    margin-bottom: 40px; 
+ }
+
+.jumbotron a
+{
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    margin-left: 16px;
+}
+.jumbotron .btn-primary
+{
+    background-color: #fb2f3a;
+    border: none;
+    box-shadow: 0 2px 1px rgba(0,0,0,0.4);
+    text-shadow:none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.jumbotron img
+{
+    margin-top: 40px;
+}
+.carousel-control .glyphicon-chevron-right
+{
+    right: 0px;
+}
+.carousel-control .glyphicon-chevron-left
+{
+    left: 0px;
+}
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .glyphicon-chevron-left
+{
+    font-size: 20px;
+    width: 30px;
+    height: 60px;
+    line-height: 55px;
+    background: #000;
+    opacity: 0.7;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right {
+    background-image: none;
+}
+
+ /*banner end*/
+
+ /*process start*/
+ .process
+ {
+    background: #eeeeee;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #fff;
+    padding: 60px 0;
+    box-shadow: 0 -3px 5px rgba(0,0,0,0.4);
+    position: relative;
+    z-index: 10;
+ }
+ .pocss-icon
+ {
+    display: inline-block;
+    height: 107px;
+    width: 105px;
+    background: transparent url(img/process-sprit.PNG);
+    background-position: left top;
+    margin-bottom: 30px;
+ }
+.pocss-icon.idesign /*there should be no space between the classes*/
+ {
+    background-position: -105px top;
+ }
+.pocss-icon.idevelop /*there should be no space between the classes*/
+ {
+    background-position: -210px top;
+ }
+.pocss-icon.ilounch /*there should be no space between the classes*/
+ {
+    background-position: -316px top;
+ }
+ .process-sprit-line
+ {
+    max-height: 5px;
+    background: url(img/process-sprit-line.png) repeat-x;
+    border-radius: 3px;
+    position: relative;
+    top: 57px;
+    z-index: -1;/*tutorial e eita eivhabe dawa*/
+ }
+ /*process end*/
+
+ /*portfolio start*/
+.portfolio
+{
+padding: 60px 0;
+}
+.portfolio-heading
+{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+.category
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #999999;
+}
+
+.portfolio a
+ {
+  font-weight: bold;
+ }
+
+ /*portfolio end*/
+
+ /*partnar start*/
+.partner
+ {
+  padding: 50px 0 40px 0;
+  border-bottom: 1px solid #ddd;
+ }
+ /*partner end*/
+
+
+ /*widgest start*/
+.widgets
+ {
+  padding: 50px 0 60px 0;
+  border-bottom: 1px solid #ddd;
+ }
+ .testimonial blockquote
+ {
+    overflow: hidden;
+    border: none;
+ }
+  .testimonial blockquote p
+ {
+    font-family: Gorgia,serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #7d7d7d;
+    margin-bottom: 20px;
+ }
+ .testimonial blockquote cite
+ {
+    color: #333;
+ }
+ .blog-list
+{
+    padding: 0;
+    margin: 0;
+}
+.blog-list li{
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+.blog-list li:first-child
+{
+    padding-top: 0;
+}
+.blog-list li:last-child
+{
+    border-bottom: 0;
+}
+ .blog-list li h5 a
+ {
+  margin-bottom: 0;
+  color: #333;
+ }
+  .blog-list li h5 a:hover
+ {
+  color: #444;
+ }
+ .tweet-list
+ {
+    padding: 0;
+    margin: 0;
+ }
+ .tweet-list li
+ {
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+ }
+ .tweet-list li:first-child
+ {
+    padding-top: 0;
+ }
+  .tweet-list li:last-child
+ {
+    border-bottom: 0;
+ }
+ .tweet-list img
+ {
+    margin-right: 20px;
+ }
+
+
+ /*widgest end*/
+
+ /*footer start*/
+ .footer
+ {
+    padding: 60px 0;
+ }
+ .footer li a{
+    color: #666;
+    font-size: 12px;
+ }
+ .footer li{
+    margin-right: 60px;
+ }
+ .social
+ {
+    padding-bottom: 30px;
+ }
+ .facebook
+ {
+    background: #569ccd;
+ }
+ .facebook:hover,.facebook:focus
+ {
+   background: #185884;
+ }
+ .twitter
+ {
+    background: #2272a9;
+ }
+  .twitter:hover,.twitter:focus
+ {
+   background: #185884;
+ }
+ .social-sprit
+ {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    background: url(img/social-sprit.png) no-repeat;
+    background-position: left top; 
+    margin-right: 10px;
+    margin-top: 4px;
+ }
+ .social-sprit.twitter
+ {
+    background-position: -16px top;
+ }
+ /*footer end*/
+
+
+
+
+ @media (max-width: 767px) {
+    .jumbotron .item
+    {
+        padding: 0 40px;
+    }
+    .plane,.lounch,.design,.develop,.blog,.tweet,.testimonial,.p-item
+    {
+        margin-bottom: 40px;padding: 0 40px;
+    }
+
+}
